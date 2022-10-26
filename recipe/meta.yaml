@@ -1,5 +1,5 @@
 {% set name = "chafer" %}
-{% set version = "0.2" %}
+{% set version = "0.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/chafer-{{ version }}.tar.gz
-  sha256: 900f8dd8c0727c1260fb03b08cd3154df56fd8becc03f7727f15d745a75cb247
+  sha256: 7c8132732a288cc8700729a5179a2fe8ec45e73a85ea01c18ec31cbf6fc20832
 
 build:
   noarch: python
